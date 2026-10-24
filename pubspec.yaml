@@ -1,0 +1,21 @@
+name: lanbridge
+description: Cross-platform local-network file transfer MVP.
+publish_to: none
+version: 0.1.0+1
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  file_picker: ^8.1.7
+  path_provider: ^2.1.5
+  crypto: ^3.0.6
+  permission_handler: ^11.3.1
+  shared_preferences: ^2.3.5
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+flutter:
+  uses-material-design: true
